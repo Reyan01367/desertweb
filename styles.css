@@ -302,7 +302,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=1920&h=1080&fit=crop') center/cover no-repeat;
+    background: url('https://images.pexels.com/photos/2422588/pexels-photo-2422588.jpeg?auto=compress&cs=tinysrgb&w=1920') center/cover no-repeat;
     color: var(--color-white);
 }
 
@@ -1045,7 +1045,7 @@ ul {
 .cta-banner {
     position: relative;
     padding: 100px 0;
-    background: url('https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?w=1920&h=600&fit=crop') center/cover no-repeat fixed;
+    background: url('https://images.pexels.com/photos/1165982/pexels-photo-1165982.jpeg?auto=compress&cs=tinysrgb&w=1920') center/cover no-repeat fixed;
     color: var(--color-white);
 }
 
