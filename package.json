@@ -1,0 +1,11 @@
+{
+    "name": "desert-drive",
+    "version": "1.0.0",
+    "description": "Desert Drive — The Ultimate All-Inclusive Safari Experience",
+    "private": true,
+    "scripts": {
+        "start": "npx serve .",
+        "dev": "npx serve . -l 3000"
+    }
+}
+

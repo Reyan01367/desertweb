@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desert Drive — The Ultimate All-Inclusive Safari Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏜️</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🏜️</span>
+                <span class="logo-text">Desert<span class="logo-highlight">Drive</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#vehicles">Vehicles</a></li>
+                <li><a href="#safety">Safety</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#packages" class="nav-cta">Book Now</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle">Welcome to</p>
+            <h1 class="hero-title">Desert<span class="highlight">Drive</span></h1>
+            <p class="hero-tagline">The Ultimate All-Inclusive Safari Experience</p>
+            <p class="hero-description">Explore the breathtaking Arabian desert with our curated safari packages. From family-friendly adventures to premium luxury escapes — experience the dunes like never before.</p>
+            <div class="hero-buttons">
+                <a href="#packages" class="btn btn-primary">Explore Packages</a>
+                <a href="#about" class="btn btn-outline">Learn More</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Safari Packages</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">4.7</span>
+                    <span class="stat-label">Avg Rating</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Safety Record</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="about-img-wrapper img-1">
+                        <img src="https://images.unsplash.com/photo-1549144511-f099e773c147?w=600&h=800&fit=crop" alt="Desert landscape at sunset" loading="lazy">
+                    </div>
+                    <div class="about-img-wrapper img-2">
+                        <img src="https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=400&h=500&fit=crop" alt="4x4 in the desert" loading="lazy">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">About Us</span>
+                    <h2 class="section-title">Born From a Passion for the Desert</h2>
+                    <p class="about-text">Desert Drive was inspired by a deep love for desert adventures in Saudi Arabia. We noticed that many people want to explore the desert but struggle to find suitable vehicles and organized safari services.</p>
+                    <p class="about-text">Through extensive research and creative thinking, we designed complete desert safari packages that include safe vehicles, professional drivers, and additional services to enhance the overall experience.</p>
+                    <p class="about-text">Our mission aligns with Saudi Arabia's <strong>Vision 2030</strong>, promoting tourism growth while ensuring customer safety and environmental responsibility.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">🚙</div>
+                            <div>
+                                <h4>Premium Vehicles</h4>
+                                <p>Carefully selected for desert terrain</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🛡️</div>
+                            <div>
+                                <h4>Safety First</h4>
+                                <p>Comprehensive safety protocols</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">⭐</div>
+                            <div>
+                                <h4>Expert Drivers</h4>
+                                <p>Certified desert driving professionals</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages" id="packages">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Packages</span>
+                <h2 class="section-title">Choose Your Adventure</h2>
+                <p class="section-desc">Three unique safari experiences tailored to every type of explorer</p>
+            </div>
+            <div class="packages-grid">
+                <!-- Family Package -->
+                <div class="package-card" data-aos="fade-up">
+                    <div class="package-badge">Family Friendly</div>
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1542401886-65d6c61db217?w=600&h=400&fit=crop" alt="Family safari experience" loading="lazy">
+                    </div>
+                    <div class="package-content">
+                        <h3 class="package-name">Family Safari</h3>
+                        <p class="package-price">From <span>250 SAR</span> /person</p>
+                        <p class="package-desc">A safe, comfortable desert experience designed for families with children. Enjoy gentle dune drives, guided nature walks, and refreshments in the heart of the desert.</p>
+                        <ul class="package-features">
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Comfortable vehicles with slow driving speed
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Guided nature walk for the whole family
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Snacks and refreshments included
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Professional driver & safety briefing
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Photo documentation included
+                            </li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-full">Book Family Safari</a>
+                    </div>
+                </div>
+
+                <!-- Adventure Package -->
+                <div class="package-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="package-badge">Most Popular</div>
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?w=600&h=400&fit=crop" alt="Adventure dune bashing" loading="lazy">
+                    </div>
+                    <div class="package-content">
+                        <h3 class="package-name">Adventure Safari</h3>
+                        <p class="package-price">From <span>450 SAR</span> /person</p>
+                        <p class="package-desc">For thrill-seekers who crave adrenaline. Experience high-performance dune bashing, sand boarding, and a breathtaking sunset drive through the golden dunes.</p>
+                        <ul class="package-features">
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                High-performance dune bashing
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Sand boarding experience
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Sunset viewpoint drive
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Roll bars & advanced safety gear
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Professional driver & safety briefing
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Refreshments & photo documentation
+                            </li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-full">Book Adventure Safari</a>
+                    </div>
+                </div>
+
+                <!-- Premium Package -->
+                <div class="package-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="package-badge premium-badge">Luxury</div>
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?w=600&h=400&fit=crop" alt="Premium luxury safari" loading="lazy">
+                    </div>
+                    <div class="package-content">
+                        <h3 class="package-name">Premium Safari</h3>
+                        <p class="package-price">From <span>800 SAR</span> /person</p>
+                        <p class="package-desc">The ultimate luxury desert experience. Enjoy a private tour guide, luxury 4×4 vehicles, traditional Arabian dinner, and optional overnight star camping under the open sky.</p>
+                        <ul class="package-features">
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Luxury 4×4 Range Rover vehicles
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Individual private tour guide
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Traditional Arabian dinner setup
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Overnight star camping available
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Professional driver & full safety package
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4.3L6 11.6L2.7 8.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                Professional photography service
+                            </li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-full">Book Premium Safari</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vehicles Section -->
+    <section class="vehicles" id="vehicles">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Fleet</span>
+                <h2 class="section-title">Purpose-Built for the Desert</h2>
+                <p class="section-desc">Each vehicle is carefully selected and maintained for optimal desert performance and passenger safety</p>
+            </div>
+            <div class="vehicles-grid">
+                <div class="vehicle-card">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1594534475808-b18fc33b045e?w=600&h=400&fit=crop" alt="Toyota Land Cruiser" loading="lazy">
+                    </div>
+                    <div class="vehicle-content">
+                        <span class="vehicle-package">Family Safari</span>
+                        <h3>Toyota Land Cruiser</h3>
+                        <p>The most trusted desert vehicle worldwide, known for its reliability, high clearance, and exceptional sand performance.</p>
+                        <div class="vehicle-specs">
+                            <div class="spec">
+                                <span class="spec-label">Drive</span>
+                                <span class="spec-value">4WD</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Clearance</span>
+                                <span class="spec-value">230mm</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Capacity</span>
+                                <span class="spec-value">7 seats</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vehicle-card">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=600&h=400&fit=crop" alt="Nissan Patrol" loading="lazy">
+                    </div>
+                    <div class="vehicle-content">
+                        <span class="vehicle-package adventure">Adventure Safari</span>
+                        <h3>Nissan Patrol</h3>
+                        <p>Favored for adventure trips because of its raw power, exceptional handling, and legendary durability on sand dunes.</p>
+                        <div class="vehicle-specs">
+                            <div class="spec">
+                                <span class="spec-label">Drive</span>
+                                <span class="spec-value">4WD</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Power</span>
+                                <span class="spec-value">400 HP</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Safety</span>
+                                <span class="spec-value">Roll Bars</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vehicle-card">
+                    <div class="vehicle-image">
+                        <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&h=400&fit=crop" alt="Range Rover" loading="lazy">
+                    </div>
+                    <div class="vehicle-content">
+                        <span class="vehicle-package premium">Premium Safari</span>
+                        <h3>Range Rover</h3>
+                        <p>The perfect blend of luxury and off-road capability. Chosen for the Premium package for its refined comfort and powerful terrain handling.</p>
+                        <div class="vehicle-specs">
+                            <div class="spec">
+                                <span class="spec-label">Drive</span>
+                                <span class="spec-value">4WD</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Interior</span>
+                                <span class="spec-value">Luxury</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Terrain</span>
+                                <span class="spec-value">All</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Section -->
+    <section class="safety" id="safety">
+        <div class="container">
+            <div class="safety-grid">
+                <div class="safety-content">
+                    <span class="section-tag">Your Safety</span>
+                    <h2 class="section-title">Safety is Our Top Priority</h2>
+                    <p class="safety-intro">Every Desert Drive safari follows a comprehensive safety protocol developed from UAE tourism regulations and international best practices.</p>
+                    <div class="safety-items">
+                        <div class="safety-item">
+                            <div class="safety-icon">👨‍✈️</div>
+                            <div>
+                                <h4>Certified Drivers</h4>
+                                <p>All drivers are professionally trained and certified for desert terrain driving with years of experience.</p>
+                            </div>
+                        </div>
+                        <div class="safety-item">
+                            <div class="safety-icon">🔧</div>
+                            <div>
+                                <h4>Vehicle Inspection</h4>
+                                <p>Every vehicle undergoes a thorough pre-trip inspection including tyre pressure, engine, and safety equipment checks.</p>
+                            </div>
+                        </div>
+                        <div class="safety-item">
+                            <div class="safety-icon">🚑</div>
+                            <div>
+                                <h4>Emergency Equipment</h4>
+                                <p>All vehicles carry first aid kits, GPS tracking, satellite phones for remote areas, and fire extinguishers.</p>
+                            </div>
+                        </div>
+                        <div class="safety-item">
+                            <div class="safety-icon">📋</div>
+                            <div>
+                                <h4>Safety Briefings</h4>
+                                <p>Every passenger receives a comprehensive safety briefing before departure, covering protocols and emergency procedures.</p>
+                            </div>
+                        </div>
+                        <div class="safety-item">
+                            <div class="safety-icon">🛞</div>
+                            <div>
+                                <h4>Sand-Ready Tyres</h4>
+                                <p>Tyres are professionally deflated for optimal sand performance and re-inflated before returning to paved roads.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="safety-image">
+                    <img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=700&h=900&fit=crop" alt="Desert safety" loading="lazy">
+                    <div class="safety-badge">
+                        <span class="safety-badge-number">100%</span>
+                        <span class="safety-badge-text">Safety Record</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">The Experience</span>
+                <h2 class="section-title">Moments in the Desert</h2>
+                <p class="section-desc">A glimpse into the unforgettable experiences that await you</p>
+            </div>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item large">
+                <img src="https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?w=800&h=600&fit=crop" alt="Desert sunset" loading="lazy">
+                <div class="gallery-overlay">
+                    <span>Golden Sunset Drive</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?w=500&h=500&fit=crop" alt="Sand dunes" loading="lazy">
+                <div class="gallery-overlay">
+                    <span>Sand Dunes</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1542401886-65d6c61db217?w=500&h=500&fit=crop" alt="Desert camp" loading="lazy">
+                <div class="gallery-overlay">
+                    <span>Desert Camping</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=500&h=500&fit=crop" alt="4x4 offroad" loading="lazy">
+                <div class="gallery-overlay">
+                    <span>Dune Bashing</span>
+                </div>
+            </div>
+            <div class="gallery-item large">
+                <img src="https://images.unsplash.com/photo-1549144511-f099e773c147?w=800&h=600&fit=crop" alt="Arabian night" loading="lazy">
+                <div class="gallery-overlay">
+                    <span>Arabian Night Dinner</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=500&h=500&fit=crop" alt="Star camping" loading="lazy">
+                <div class="gallery-overlay">
+                    <span>Star Gazing</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Reviews</span>
+                <h2 class="section-title">What Our Guests Say</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The Family Safari was perfect for us. The driver was professional, the pace was comfortable for our kids, and the guided nature walk was a highlight. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div>
+                            <strong>Ahmed K.</strong>
+                            <span>Family Safari</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Incredible dune bashing experience! The Nissan Patrol handled the dunes like a beast. Sand boarding was so much fun. The sunset view was absolutely breathtaking."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">S</div>
+                        <div>
+                            <strong>Sara M.</strong>
+                            <span>Adventure Safari</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The Premium package exceeded all expectations. Private guide, luxury Range Rover, and the Arabian dinner under the stars was magical. Worth every riyal."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">K</div>
+                        <div>
+                            <strong>Khalid R.</strong>
+                            <span>Premium Safari</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="cta-overlay"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready for Your Desert Adventure?</h2>
+                <p>Book your safari today and experience the magic of the Arabian desert with Desert Drive.</p>
+                <div class="cta-buttons">
+                    <a href="#packages" class="btn btn-primary btn-lg">View Packages</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Get in Touch</span>
+                    <h2 class="section-title">Book Your Safari</h2>
+                    <p>Ready to explore the desert? Fill out the form and our team will get back to you within 24 hours with a personalized package quote.</p>
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <strong>Location</strong>
+                                <p>Riyadh, Saudi Arabia</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+966 XX XXX XXXX</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>info@desertdrive.sa</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <span class="contact-icon">🕐</span>
+                            <div>
+                                <strong>Hours</strong>
+                                <p>Daily: 6:00 AM — 10:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+966 XX XXX XXXX">
+                            </div>
+                            <div class="form-group">
+                                <label for="package">Package</label>
+                                <select id="package" name="package" required>
+                                    <option value="">Select a package</option>
+                                    <option value="family">Family Safari — 250 SAR</option>
+                                    <option value="adventure">Adventure Safari — 450 SAR</option>
+                                    <option value="premium">Premium Safari — 800 SAR</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Number of Guests</label>
+                            <input type="number" id="guests" name="guests" placeholder="How many people?" min="1" max="20">
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Special Requests</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Any special requests or questions?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Booking Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">🏜️</span>
+                        <span class="logo-text">Desert<span class="logo-highlight">Drive</span></span>
+                    </a>
+                    <p>The Ultimate All-Inclusive Safari Experience in Saudi Arabia. Explore the beauty of the Arabian desert with our curated safari packages.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                        <a href="#" aria-label="TikTok">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#packages">Safari Packages</a></li>
+                        <li><a href="#vehicles">Our Vehicles</a></li>
+                        <li><a href="#safety">Safety</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Packages</h4>
+                    <ul>
+                        <li><a href="#packages">Family Safari</a></li>
+                        <li><a href="#packages">Adventure Safari</a></li>
+                        <li><a href="#packages">Premium Safari</a></li>
+                        <li><a href="#contact">Custom Packages</a></li>
+                        <li><a href="#contact">Group Bookings</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to get the latest offers and desert adventure tips.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Desert Drive. All rights reserved. | Saudi Arabia</p>
+                <p>Supporting Vision 2030 🇸🇦</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
